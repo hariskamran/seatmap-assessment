@@ -4,6 +4,7 @@ import { Armchair } from 'lucide-react';
 
 import { SEAT_CLASSES } from '@/components/seatmap/colors';
 import MapSection from '@/components/seatmap/MapSection';
+import { Badge } from '@/shadcn/components/ui/badge';
 import useAppStore from '@/stores/useAppStore';
 import { Section } from '@/types';
 
@@ -17,13 +18,17 @@ function SeatingMap(): ReactElement {
       <div className="w-full md:max-w-[1000px] flex flex-col gap-4">
         <div className="flex flex-col gap-2">
           <span className="text-2xl font-bold">Seating Map</span>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center flex-wrap gap-2">
             {Object.entries(SEAT_CLASSES).map(([status, className]) => (
-              <div key={status} className="flex items-center gap-2">
-                <Armchair size={20} className={className} stroke="currentColor" />
-                <span className="text-sm capitalize">{status}</span>
-              </div>
+              <Badge key={status} className={className} variant="outline">
+                <Armchair size={24} className={className} stroke="currentColor" />
+                {status.toUpperCase()}
+              </Badge>
             ))}
+            <Badge className="text-[#004E4B]" variant="outline">
+              <Armchair size={24} className="text-[#004E4B]" stroke="currentColor" />
+              SELECTED
+            </Badge>
           </div>
         </div>
         <div className="w-full overflow-auto border rounded-md">
