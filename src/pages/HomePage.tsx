@@ -12,12 +12,12 @@ function HomePage(): ReactElement {
   if (isLoading) return <div>Loading Map...</div>;
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col">
       <Header />
 
-      <main className="flex-1 relative">
+      <div className="h-screen flex-1 relative">
         <div className="p-10">Seat Map Area</div>
-      </main>
+      </div>
     </div>
   );
 }
