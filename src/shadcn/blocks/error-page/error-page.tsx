@@ -17,7 +17,7 @@ const Error = () => {
         </Button>
       </div>
 
-      {/* Right Section: Illustration */}
+      {/* Right MapSection: Illustration */}
       <div className="relative max-h-screen w-full p-2 max-lg:hidden">
         <div className="h-full w-full rounded-2xl bg-black"></div>
         <Image

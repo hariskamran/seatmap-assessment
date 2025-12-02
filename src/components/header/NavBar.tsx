@@ -1,9 +1,11 @@
+import React, { ReactElement } from 'react';
+
 import Link from 'next/link';
 
 import Logo from '@/components/header/Logo';
 import { ModeToggle } from '@/theme/ModeToggle';
 
-const Navbar = () => {
+function Navbar(): ReactElement {
   return (
     <header className="bg-background">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-4 py-7 sm:px-6">
@@ -19,6 +21,6 @@ const Navbar = () => {
       </div>
     </header>
   );
-};
+}
 
 export default Navbar;

@@ -3,6 +3,7 @@
 import React, { ReactElement } from 'react';
 
 import Header from '@/components/header/Header';
+import SeatingMap from '@/components/seatmap/SeatingMap';
 import useVenue from '@/hooks/useVenue';
 
 function HomePage(): ReactElement {
@@ -14,10 +15,7 @@ function HomePage(): ReactElement {
   return (
     <div className="flex flex-col">
       <Header />
-
-      <div className="h-screen flex-1 relative">
-        <div className="p-10">Seat Map Area</div>
-      </div>
+      <SeatingMap />
     </div>
   );
 }

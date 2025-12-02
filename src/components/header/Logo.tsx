@@ -1,11 +1,24 @@
+import { ReactElement } from 'react';
+
 import Image from 'next/image';
 
 import { Skeleton } from '@/shadcn/components/ui/skeleton';
 import { cn } from '@/shadcn/lib/utils';
 import useAppStore from '@/stores/useAppStore';
 
-const Logo = ({ className }: { className?: string }) => {
+function LogoSkeleton({ className }: { className?: string }) {
+  return (
+    <div className={cn('flex lg:flex-col items-center', className)}>
+      <Skeleton className="w-16 h-16 lg:w-20 lg:h-20 p-4 bg-primary rounded-full shadow-md drop-shadow-lg" />
+      <Skeleton className="h-7 w-28" />
+    </div>
+  );
+}
+
+function Logo({ className }: { className?: string }): ReactElement {
   const { venue } = useAppStore();
+
+  if (!venue) return <LogoSkeleton className={className} />;
 
   return (
     <div className={cn('flex lg:flex-col items-center', className)}>
@@ -25,6 +38,6 @@ const Logo = ({ className }: { className?: string }) => {
       )}
     </div>
   );
-};
+}
 
 export default Logo;

@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 
 import '@/app/globals.css';
 import MainLayout from '@/layout/MainLayout';
@@ -19,6 +19,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Seat Map App',
   description: 'Seat Map Assessment App',
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+  maximumScale: 1.0,
+  userScalable: false,
 };
 
 export default function RootLayout({
