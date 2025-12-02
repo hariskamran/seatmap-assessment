@@ -16,7 +16,7 @@ function Seat({ seat }: SeatProps): ReactElement {
   const isAvailable = seat.status === 'available';
 
   // Determine color class: selected takes priority, otherwise use status color
-  const colorClass = isSelected ? 'text-[#004E4B]' : SEAT_CLASSES[seat.status];
+  const colorClass = isSelected ? 'text-primary' : SEAT_CLASSES[seat.status];
 
   const handleClick = () => {
     if (isAvailable) {

@@ -1,4 +1,5 @@
 import { create, StoreApi, UseBoundStore } from 'zustand';
+import { persist } from 'zustand/middleware';
 
 type SeatState = {
   selectedSeats: Record<string, boolean>;
@@ -15,22 +16,29 @@ const defaultState: SeatState = {
 
 const useSeatStore: UseBoundStore<StoreApi<SeatState & SeatActions>> = create<
   SeatState & SeatActions
->(set => ({
-  ...defaultState,
-  toggleSeat: seatId =>
-    set(state => {
-      const newSelectedSeats = { ...state.selectedSeats };
-      if (newSelectedSeats[seatId]) {
-        delete newSelectedSeats[seatId];
-      } else {
-        // Limit to 8 seats
-        if (Object.keys(newSelectedSeats).length < 8) {
-          newSelectedSeats[seatId] = true;
-        }
-      }
-      return { selectedSeats: newSelectedSeats };
+>()(
+  persist(
+    set => ({
+      ...defaultState,
+      toggleSeat: seatId =>
+        set(state => {
+          const newSelectedSeats = { ...state.selectedSeats };
+          if (newSelectedSeats[seatId]) {
+            delete newSelectedSeats[seatId];
+          } else {
+            // Limit to 8 seats
+            if (Object.keys(newSelectedSeats).length < 8) {
+              newSelectedSeats[seatId] = true;
+            }
+          }
+          return { selectedSeats: newSelectedSeats };
+        }),
+      clearSelection: () => set({ ...defaultState }),
     }),
-  clearSelection: () => set({ ...defaultState }),
-}));
+    {
+      name: 'seat-storage',
+    },
+  ),
+);
 
 export default useSeatStore;

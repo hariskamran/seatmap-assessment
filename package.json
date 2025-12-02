@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "generate-small-venue": "node ./scripts/generate-venue.js --small",
+    "generate-large-venue": "node ./scripts/generate-venue.js --large"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.16",

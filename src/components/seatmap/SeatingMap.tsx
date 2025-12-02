@@ -25,8 +25,8 @@ function SeatingMap(): ReactElement {
                 {status.toUpperCase()}
               </Badge>
             ))}
-            <Badge className="text-[#004E4B]" variant="outline">
-              <Armchair size={24} className="text-[#004E4B]" stroke="currentColor" />
+            <Badge className="text-primary" variant="outline">
+              <Armchair size={24} className="text-primary" stroke="currentColor" />
               SELECTED
             </Badge>
           </div>
