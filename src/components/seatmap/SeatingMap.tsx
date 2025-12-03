@@ -40,6 +40,7 @@ function SeatingMap(): ReactElement {
         </div>
         <div className="w-full overflow-auto border shadow-xl drop-shadow-xl rounded-md">
           <svg
+            zoomAndPan="magnify"
             width={venue.map.width}
             height={venue.map.height}
             viewBox={`0 0 ${venue.map.width} ${venue.map.height}`}
