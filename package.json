@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "install": "pnpm install",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "generate-small-venue": "node ./scripts/generate-venue.js --small",

@@ -36,7 +36,8 @@ const useSeatStore: UseBoundStore<StoreApi<SeatState & SeatActions>> = create<
       clearSelection: () => set({ ...defaultState }),
     }),
     {
-      name: 'seat-storage',
+      // As per requirements
+      name: 'venueId',
     },
   ),
 );
