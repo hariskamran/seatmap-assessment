@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project for the frontend developer asses
 [https://seatmap-assessment.vercel.app/](https://seatmap-assessment.vercel.app/)
 
 ## Status
+- **Renders with 15K seats**
 - **Basic Requirements**: ✅ Completed
 - **Stretch Goals**: ✅ Dark mode toggle added
 
