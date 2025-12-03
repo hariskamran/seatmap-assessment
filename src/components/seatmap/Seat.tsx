@@ -2,34 +2,21 @@ import React, { ReactElement } from 'react';
 
 import { Armchair } from 'lucide-react';
 
-import { SEAT_CLASSES } from '@/components/seatmap/colors';
 import { useSeatSelection } from '@/hooks/useSeatSelection';
-import { Seat as SeatType } from '@/types';
+import { Row, Seat as SeatType } from '@/types';
 
 interface SeatProps {
   seat: SeatType;
+  sectionLabel: string;
+  row: Row;
 }
 
-function Seat({ seat }: SeatProps): ReactElement {
-  const { isSelected, toggle } = useSeatSelection(seat.id);
-
-  const isAvailable = seat.status === 'available';
-
-  // Determine color class: selected takes priority, otherwise use status color
-  const colorClass = isSelected ? 'text-primary' : SEAT_CLASSES[seat.status];
-
-  const handleClick = () => {
-    if (isAvailable) {
-      toggle();
-    }
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (isAvailable && (e.key === 'Enter' || e.key === ' ')) {
-      e.preventDefault();
-      toggle();
-    }
-  };
+function Seat({ seat, sectionLabel, row }: SeatProps): ReactElement {
+  const { isSelected, colorClass, isAvailable, handleClick, handleKeyDown } = useSeatSelection(
+    seat,
+    sectionLabel,
+    row,
+  );
 
   return (
     <g
@@ -50,7 +37,7 @@ function Seat({ seat }: SeatProps): ReactElement {
         rx={2} // Matches rounded-sm
         fill="transparent"
         stroke="none"
-        className="transition-all duration-200 group-focus:stroke-[#004E4B] group-focus:stroke-2"
+        className="transition-all duration-200 group-focus:stroke-primary group-focus:stroke-2"
       />
 
       {/* The Icon */}

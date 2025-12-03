@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from 'next';
 
 import '@/app/globals.css';
 import MainLayout from '@/layout/MainLayout';
+import { Toaster } from '@/shadcn/components/ui/sonner';
 import { ThemeProvider } from '@/theme/theme-provider';
 
 const geistSans = Geist({
@@ -44,6 +45,7 @@ export default function RootLayout({
         >
           <MainLayout>{children}</MainLayout>
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );

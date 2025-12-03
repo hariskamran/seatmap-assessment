@@ -12,7 +12,7 @@ function MapSection({ section }: { section: Section }): ReactElement {
         {label}
       </text>
       {rows.map((row: Row) => (
-        <SectionRow key={`${row.index}-${label}`} row={row} />
+        <SectionRow key={`${row.index}-${label}`} row={row} sectionLabel={label} />
       ))}
     </g>
   );
