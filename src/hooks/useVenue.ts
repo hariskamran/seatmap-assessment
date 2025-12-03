@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 import useSWR, { SWRResponse } from 'swr';
 
+import { buildSpatialIndex } from '@/lib/optimizations';
 import useAppStore from '@/stores/useAppStore';
 import { Venue } from '@/types';
 
@@ -18,11 +19,14 @@ function useVenue(): VenueHook {
 
   const { data } = swrResponse;
 
-  const { setVenue } = useAppStore();
+  const { setVenue, setSpatialGrid } = useAppStore();
 
   useEffect(() => {
-    setVenue(data);
-  }, [data, setVenue]);
+    if (data) {
+      setVenue(data);
+      setSpatialGrid(buildSpatialIndex(data.sections, data.map.width, data.map.height));
+    }
+  }, [data, setVenue, setSpatialGrid]);
 
   return {
     venue: data,

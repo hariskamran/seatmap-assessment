@@ -37,3 +37,26 @@ export type Venue = {
   map: VenueMap;
   sections: Section[];
 };
+
+export type SectionBounds = {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  section: Section;
+};
+
+export type AbsoluteSeat = Seat & {
+  absX: number;
+  absY: number;
+  sectionLabel: string;
+  row: Row; // Reference to original row for selection logic
+  scale: number;
+};
+
+export type SpatialGrid = {
+  cells: Map<string, AbsoluteSeat[]>;
+  cellSize: number;
+  width: number;
+  height: number;
+};
