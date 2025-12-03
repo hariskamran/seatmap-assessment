@@ -32,7 +32,7 @@
               "x": 70,
               "y": 35,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A-1-3",
@@ -40,7 +40,7 @@
               "x": 105,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "A-1-4",
@@ -48,7 +48,7 @@
               "x": 140,
               "y": 35,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-1-5",
@@ -56,7 +56,7 @@
               "x": 175,
               "y": 35,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-1-6",
@@ -64,7 +64,7 @@
               "x": 210,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-1-7",
@@ -72,7 +72,7 @@
               "x": 245,
               "y": 35,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-1-8",
@@ -80,7 +80,7 @@
               "x": 280,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-1-9",
@@ -88,7 +88,7 @@
               "x": 315,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-1-10",
@@ -141,7 +141,7 @@
               "x": 175,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "A-2-6",
@@ -149,7 +149,7 @@
               "x": 210,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-2-7",
@@ -157,7 +157,7 @@
               "x": 245,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-2-8",
@@ -165,7 +165,7 @@
               "x": 280,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-2-9",
@@ -173,7 +173,7 @@
               "x": 315,
               "y": 70,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A-2-10",
@@ -181,7 +181,7 @@
               "x": 350,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             }
           ]
         },
@@ -194,7 +194,7 @@
               "x": 35,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "A-3-2",
@@ -202,7 +202,7 @@
               "x": 70,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-3-3",
@@ -210,7 +210,7 @@
               "x": 105,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "A-3-4",
@@ -218,7 +218,7 @@
               "x": 140,
               "y": 105,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "A-3-5",
@@ -234,7 +234,7 @@
               "x": 210,
               "y": 105,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "A-3-7",
@@ -258,7 +258,7 @@
               "x": 315,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "A-3-10",
@@ -279,7 +279,7 @@
               "x": 35,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-4-2",
@@ -311,7 +311,7 @@
               "x": 175,
               "y": 140,
               "priceTier": 1,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "A-4-6",
@@ -351,7 +351,7 @@
               "x": 350,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             }
           ]
         },
@@ -372,7 +372,7 @@
               "x": 70,
               "y": 175,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A-5-3",
@@ -380,7 +380,7 @@
               "x": 105,
               "y": 175,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-5-4",
@@ -404,7 +404,7 @@
               "x": 210,
               "y": 175,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "A-5-7",
@@ -420,7 +420,7 @@
               "x": 280,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-5-9",
@@ -481,7 +481,7 @@
               "x": 175,
               "y": 210,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-6-6",
@@ -489,7 +489,7 @@
               "x": 210,
               "y": 210,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "A-6-7",
@@ -505,7 +505,7 @@
               "x": 280,
               "y": 210,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-6-9",
@@ -534,7 +534,7 @@
               "x": 35,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-7-2",
@@ -542,7 +542,7 @@
               "x": 70,
               "y": 245,
               "priceTier": 1,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "A-7-3",
@@ -550,7 +550,7 @@
               "x": 105,
               "y": 245,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A-7-4",
@@ -558,7 +558,7 @@
               "x": 140,
               "y": 245,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-7-5",
@@ -590,7 +590,7 @@
               "x": 280,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-7-9",
@@ -598,7 +598,7 @@
               "x": 315,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "A-7-10",
@@ -606,7 +606,7 @@
               "x": 350,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             }
           ]
         },
@@ -627,7 +627,7 @@
               "x": 70,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-8-3",
@@ -635,7 +635,7 @@
               "x": 105,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-8-4",
@@ -651,7 +651,7 @@
               "x": 175,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-8-6",
@@ -667,7 +667,7 @@
               "x": 245,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-8-8",
@@ -691,7 +691,7 @@
               "x": 350,
               "y": 280,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             }
           ]
         },
@@ -704,7 +704,7 @@
               "x": 35,
               "y": 315,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-9-2",
@@ -728,7 +728,7 @@
               "x": 140,
               "y": 315,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-9-5",
@@ -744,7 +744,7 @@
               "x": 210,
               "y": 315,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A-9-7",
@@ -760,7 +760,7 @@
               "x": 280,
               "y": 315,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A-9-9",
@@ -805,7 +805,7 @@
               "x": 105,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A-10-4",
@@ -837,7 +837,7 @@
               "x": 245,
               "y": 350,
               "priceTier": 2,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A-10-8",
@@ -861,7 +861,7 @@
               "x": 350,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             }
           ]
         }
@@ -885,7 +885,7 @@
               "x": 35,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-1-2",
@@ -893,7 +893,7 @@
               "x": 70,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-1-3",
@@ -901,7 +901,7 @@
               "x": 105,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-1-4",
@@ -941,7 +941,7 @@
               "x": 280,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-1-9",
@@ -949,7 +949,7 @@
               "x": 315,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-1-10",
@@ -970,7 +970,7 @@
               "x": 35,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-2-2",
@@ -978,7 +978,7 @@
               "x": 70,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-2-3",
@@ -986,7 +986,7 @@
               "x": 105,
               "y": 70,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "B-2-4",
@@ -994,7 +994,7 @@
               "x": 140,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-2-5",
@@ -1042,7 +1042,7 @@
               "x": 350,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             }
           ]
         },
@@ -1055,7 +1055,7 @@
               "x": 35,
               "y": 105,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-3-2",
@@ -1071,7 +1071,7 @@
               "x": 105,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-3-4",
@@ -1087,7 +1087,7 @@
               "x": 175,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-3-6",
@@ -1156,7 +1156,7 @@
               "x": 105,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-4-4",
@@ -1164,7 +1164,7 @@
               "x": 140,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-4-5",
@@ -1172,7 +1172,7 @@
               "x": 175,
               "y": 140,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-4-6",
@@ -1188,7 +1188,7 @@
               "x": 245,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-4-8",
@@ -1233,7 +1233,7 @@
               "x": 70,
               "y": 175,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-5-3",
@@ -1249,7 +1249,7 @@
               "x": 140,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-5-5",
@@ -1297,7 +1297,7 @@
               "x": 350,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             }
           ]
         },
@@ -1326,7 +1326,7 @@
               "x": 105,
               "y": 210,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-6-4",
@@ -1350,7 +1350,7 @@
               "x": 210,
               "y": 210,
               "priceTier": 1,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "B-6-7",
@@ -1366,7 +1366,7 @@
               "x": 280,
               "y": 210,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-6-9",
@@ -1403,7 +1403,7 @@
               "x": 70,
               "y": 245,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-7-3",
@@ -1419,7 +1419,7 @@
               "x": 140,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-7-5",
@@ -1427,7 +1427,7 @@
               "x": 175,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-7-6",
@@ -1443,7 +1443,7 @@
               "x": 245,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-7-8",
@@ -1451,7 +1451,7 @@
               "x": 280,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-7-9",
@@ -1459,7 +1459,7 @@
               "x": 315,
               "y": 245,
               "priceTier": 1,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "B-7-10",
@@ -1467,7 +1467,7 @@
               "x": 350,
               "y": 245,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             }
           ]
         },
@@ -1480,7 +1480,7 @@
               "x": 35,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "B-8-2",
@@ -1488,7 +1488,7 @@
               "x": 70,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-8-3",
@@ -1504,7 +1504,7 @@
               "x": 140,
               "y": 280,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B-8-5",
@@ -1512,7 +1512,7 @@
               "x": 175,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-8-6",
@@ -1528,7 +1528,7 @@
               "x": 245,
               "y": 280,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "B-8-8",
@@ -1552,7 +1552,7 @@
               "x": 350,
               "y": 280,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             }
           ]
         },
@@ -1581,7 +1581,7 @@
               "x": 105,
               "y": 315,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "B-9-4",
@@ -1589,7 +1589,7 @@
               "x": 140,
               "y": 315,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "B-9-5",
@@ -1597,7 +1597,7 @@
               "x": 175,
               "y": 315,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-9-6",
@@ -1605,7 +1605,7 @@
               "x": 210,
               "y": 315,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "B-9-7",
@@ -1621,7 +1621,7 @@
               "x": 280,
               "y": 315,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B-9-9",
@@ -1629,7 +1629,7 @@
               "x": 315,
               "y": 315,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B-9-10",
@@ -1650,7 +1650,7 @@
               "x": 35,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "B-10-2",
@@ -1682,7 +1682,7 @@
               "x": 175,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "B-10-6",
@@ -1690,7 +1690,7 @@
               "x": 210,
               "y": 350,
               "priceTier": 2,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "B-10-7",
@@ -1770,7 +1770,7 @@
               "x": 140,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "C-1-5",
@@ -1794,7 +1794,7 @@
               "x": 245,
               "y": 35,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-1-8",
@@ -1810,7 +1810,7 @@
               "x": 315,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-1-10",
@@ -1831,7 +1831,7 @@
               "x": 35,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-2-2",
@@ -1847,7 +1847,7 @@
               "x": 105,
               "y": 70,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-2-4",
@@ -1855,7 +1855,7 @@
               "x": 140,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-2-5",
@@ -1879,7 +1879,7 @@
               "x": 245,
               "y": 70,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-2-8",
@@ -1916,7 +1916,7 @@
               "x": 35,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-3-2",
@@ -1924,7 +1924,7 @@
               "x": 70,
               "y": 105,
               "priceTier": 1,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "C-3-3",
@@ -1940,7 +1940,7 @@
               "x": 140,
               "y": 105,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "C-3-5",
@@ -1972,7 +1972,7 @@
               "x": 280,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-3-9",
@@ -1980,7 +1980,7 @@
               "x": 315,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "C-3-10",
@@ -2001,7 +2001,7 @@
               "x": 35,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-4-2",
@@ -2009,7 +2009,7 @@
               "x": 70,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "C-4-3",
@@ -2025,7 +2025,7 @@
               "x": 140,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-4-5",
@@ -2033,7 +2033,7 @@
               "x": 175,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-4-6",
@@ -2041,7 +2041,7 @@
               "x": 210,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-4-7",
@@ -2057,7 +2057,7 @@
               "x": 280,
               "y": 140,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-4-9",
@@ -2073,7 +2073,7 @@
               "x": 350,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             }
           ]
         },
@@ -2110,7 +2110,7 @@
               "x": 140,
               "y": 175,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-5-5",
@@ -2126,7 +2126,7 @@
               "x": 210,
               "y": 175,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-5-7",
@@ -2150,7 +2150,7 @@
               "x": 315,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-5-10",
@@ -2158,7 +2158,7 @@
               "x": 350,
               "y": 175,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             }
           ]
         },
@@ -2171,7 +2171,7 @@
               "x": 35,
               "y": 210,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-6-2",
@@ -2187,7 +2187,7 @@
               "x": 105,
               "y": 210,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "C-6-4",
@@ -2195,7 +2195,7 @@
               "x": 140,
               "y": 210,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-6-5",
@@ -2203,7 +2203,7 @@
               "x": 175,
               "y": 210,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-6-6",
@@ -2211,7 +2211,7 @@
               "x": 210,
               "y": 210,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-6-7",
@@ -2235,7 +2235,7 @@
               "x": 315,
               "y": 210,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "C-6-10",
@@ -2256,7 +2256,7 @@
               "x": 35,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-7-2",
@@ -2280,7 +2280,7 @@
               "x": 140,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-7-5",
@@ -2304,7 +2304,7 @@
               "x": 245,
               "y": 245,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-7-8",
@@ -2328,7 +2328,7 @@
               "x": 350,
               "y": 245,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             }
           ]
         },
@@ -2373,7 +2373,7 @@
               "x": 175,
               "y": 280,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "C-8-6",
@@ -2389,7 +2389,7 @@
               "x": 245,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-8-8",
@@ -2405,7 +2405,7 @@
               "x": 315,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-8-10",
@@ -2413,7 +2413,7 @@
               "x": 350,
               "y": 280,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             }
           ]
         },
@@ -2426,7 +2426,7 @@
               "x": 35,
               "y": 315,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-9-2",
@@ -2511,7 +2511,7 @@
               "x": 35,
               "y": 350,
               "priceTier": 2,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "C-10-2",
@@ -2519,7 +2519,7 @@
               "x": 70,
               "y": 350,
               "priceTier": 2,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C-10-3",
@@ -2535,7 +2535,7 @@
               "x": 140,
               "y": 350,
               "priceTier": 2,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "C-10-5",
@@ -2543,7 +2543,7 @@
               "x": 175,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C-10-6",
@@ -2551,7 +2551,7 @@
               "x": 210,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "C-10-7",
@@ -2567,7 +2567,7 @@
               "x": 280,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "C-10-9",
@@ -2575,7 +2575,7 @@
               "x": 315,
               "y": 350,
               "priceTier": 2,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "C-10-10",
@@ -2615,7 +2615,7 @@
               "x": 70,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "D-1-3",
@@ -2623,7 +2623,7 @@
               "x": 105,
               "y": 35,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-1-4",
@@ -2647,7 +2647,7 @@
               "x": 210,
               "y": 35,
               "priceTier": 1,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "D-1-7",
@@ -2671,7 +2671,7 @@
               "x": 315,
               "y": 35,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-1-10",
@@ -2716,7 +2716,7 @@
               "x": 140,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "D-2-5",
@@ -2724,7 +2724,7 @@
               "x": 175,
               "y": 70,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "D-2-6",
@@ -2732,7 +2732,7 @@
               "x": 210,
               "y": 70,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "D-2-7",
@@ -2809,7 +2809,7 @@
               "x": 175,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "D-3-6",
@@ -2817,7 +2817,7 @@
               "x": 210,
               "y": 105,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-3-7",
@@ -2825,7 +2825,7 @@
               "x": 245,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-3-8",
@@ -2833,7 +2833,7 @@
               "x": 280,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "D-3-9",
@@ -2841,7 +2841,7 @@
               "x": 315,
               "y": 105,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-3-10",
@@ -2849,7 +2849,7 @@
               "x": 350,
               "y": 105,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             }
           ]
         },
@@ -2862,7 +2862,7 @@
               "x": 35,
               "y": 140,
               "priceTier": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "D-4-2",
@@ -2870,7 +2870,7 @@
               "x": 70,
               "y": 140,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-4-3",
@@ -2878,7 +2878,7 @@
               "x": 105,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-4-4",
@@ -2886,7 +2886,7 @@
               "x": 140,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-4-5",
@@ -2894,7 +2894,7 @@
               "x": 175,
               "y": 140,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "D-4-6",
@@ -2910,7 +2910,7 @@
               "x": 245,
               "y": 140,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-4-8",
@@ -2918,7 +2918,7 @@
               "x": 280,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-4-9",
@@ -2926,7 +2926,7 @@
               "x": 315,
               "y": 140,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-4-10",
@@ -2947,7 +2947,7 @@
               "x": 35,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-5-2",
@@ -2955,7 +2955,7 @@
               "x": 70,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-5-3",
@@ -2963,7 +2963,7 @@
               "x": 105,
               "y": 175,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-5-4",
@@ -2971,7 +2971,7 @@
               "x": 140,
               "y": 175,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-5-5",
@@ -2995,7 +2995,7 @@
               "x": 245,
               "y": 175,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-5-8",
@@ -3011,7 +3011,7 @@
               "x": 315,
               "y": 175,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-5-10",
@@ -3019,7 +3019,7 @@
               "x": 350,
               "y": 175,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             }
           ]
         },
@@ -3040,7 +3040,7 @@
               "x": 70,
               "y": 210,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-6-3",
@@ -3048,7 +3048,7 @@
               "x": 105,
               "y": 210,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-6-4",
@@ -3056,7 +3056,7 @@
               "x": 140,
               "y": 210,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-6-5",
@@ -3080,7 +3080,7 @@
               "x": 245,
               "y": 210,
               "priceTier": 1,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "D-6-8",
@@ -3096,7 +3096,7 @@
               "x": 315,
               "y": 210,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-6-10",
@@ -3125,7 +3125,7 @@
               "x": 70,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-7-3",
@@ -3149,7 +3149,7 @@
               "x": 175,
               "y": 245,
               "priceTier": 1,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "D-7-6",
@@ -3157,7 +3157,7 @@
               "x": 210,
               "y": 245,
               "priceTier": 1,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "D-7-7",
@@ -3165,7 +3165,7 @@
               "x": 245,
               "y": 245,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-7-8",
@@ -3181,7 +3181,7 @@
               "x": 315,
               "y": 245,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-7-10",
@@ -3202,7 +3202,7 @@
               "x": 35,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-8-2",
@@ -3226,7 +3226,7 @@
               "x": 140,
               "y": 280,
               "priceTier": 1,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "D-8-5",
@@ -3242,7 +3242,7 @@
               "x": 210,
               "y": 280,
               "priceTier": 1,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "D-8-7",
@@ -3266,7 +3266,7 @@
               "x": 315,
               "y": 280,
               "priceTier": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-8-10",
@@ -3311,7 +3311,7 @@
               "x": 140,
               "y": 315,
               "priceTier": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-9-5",
@@ -3335,7 +3335,7 @@
               "x": 245,
               "y": 315,
               "priceTier": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D-9-8",
@@ -3372,7 +3372,7 @@
               "x": 35,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-10-2",
@@ -3412,7 +3412,7 @@
               "x": 210,
               "y": 350,
               "priceTier": 2,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "D-10-7",
@@ -3436,7 +3436,7 @@
               "x": 315,
               "y": 350,
               "priceTier": 2,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "D-10-10",

@@ -11,7 +11,7 @@ interface SeatProps {
   row: Row;
 }
 
-function Seat({ seat, sectionLabel, row }: SeatProps): ReactElement {
+const Seat = React.memo(function Seat({ seat, sectionLabel, row }: SeatProps): ReactElement {
   const { isSelected, colorClass, isAvailable, handleClick, handleKeyDown } = useSeatSelection(
     seat,
     sectionLabel,
@@ -50,6 +50,6 @@ function Seat({ seat, sectionLabel, row }: SeatProps): ReactElement {
       />
     </g>
   );
-}
+});
 
 export default Seat;

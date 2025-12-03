@@ -12,7 +12,7 @@ import useAppStore from '@/stores/useAppStore';
 import { Section } from '@/types';
 
 function SeatingMap(): ReactElement {
-  const { venue } = useAppStore();
+  const venue = useAppStore(state => state.venue);
 
   if (!venue) return <></>;
 
@@ -38,7 +38,7 @@ function SeatingMap(): ReactElement {
           <SelectedSeatSummary />
           <BookingSummary />
         </div>
-        <div className="w-full overflow-auto border rounded-md">
+        <div className="w-full overflow-auto border shadow-xl drop-shadow-xl rounded-md">
           <svg
             width={venue.map.width}
             height={venue.map.height}
