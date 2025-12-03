@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import useSWR, { SWRResponse } from 'swr';
 
-import { getSectionsBounds } from '@/lib/optimizations';
+import { buildSpatialIndex } from '@/lib/optimizations';
 import useAppStore from '@/stores/useAppStore';
 import { Venue } from '@/types';
 
@@ -19,14 +19,14 @@ function useVenue(): VenueHook {
 
   const { data } = swrResponse;
 
-  const { setVenue, setSectionBounds } = useAppStore();
+  const { setVenue, setSpatialGrid } = useAppStore();
 
   useEffect(() => {
     if (data) {
       setVenue(data);
-      setSectionBounds(getSectionsBounds(data.sections));
+      setSpatialGrid(buildSpatialIndex(data.sections, data.map.width, data.map.height));
     }
-  }, [data, setVenue, setSectionBounds]);
+  }, [data, setVenue, setSpatialGrid]);
 
   return {
     venue: data,

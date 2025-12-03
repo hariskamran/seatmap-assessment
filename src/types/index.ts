@@ -45,3 +45,18 @@ export type SectionBounds = {
   height: number;
   section: Section;
 };
+
+export type AbsoluteSeat = Seat & {
+  absX: number;
+  absY: number;
+  sectionLabel: string;
+  row: Row; // Reference to original row for selection logic
+  scale: number;
+};
+
+export type SpatialGrid = {
+  cells: Map<string, AbsoluteSeat[]>;
+  cellSize: number;
+  width: number;
+  height: number;
+};

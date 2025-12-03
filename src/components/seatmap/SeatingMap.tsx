@@ -4,6 +4,7 @@ import { Armchair } from 'lucide-react';
 
 import { SEAT_CLASSES } from '@/components/seatmap/colors';
 import MapSection from '@/components/seatmap/MapSection';
+import Seat from '@/components/seatmap/Seat';
 import BookingSummary from '@/components/summary/BookingSummary';
 import SelectedSeatSummary from '@/components/summary/SelectedSeatSummary';
 import { useVisibleSections } from '@/hooks/useVisibleSections';
@@ -14,8 +15,10 @@ import { Section } from '@/types';
 
 function SeatingMap(): ReactElement {
   const venue = useAppStore(state => state.venue);
+  const visibleSeats = useAppStore(state => state.visibleSeats);
   const containerRef = useRef<HTMLDivElement>(null);
-  const visibleSections = useVisibleSections(containerRef);
+
+  useVisibleSections(containerRef);
 
   if (!venue) return <></>;
 
@@ -51,8 +54,20 @@ function SeatingMap(): ReactElement {
             viewBox={`0 0 ${venue.map.width} ${venue.map.height}`}
             className="block bg-secondary"
           >
-            {visibleSections.map((section: Section) => (
+            {venue.sections.map((section: Section) => (
               <MapSection key={section.id} section={section} />
+            ))}
+            {visibleSeats.map(seat => (
+              <g
+                key={seat.id}
+                transform={`translate(${seat.absX}, ${seat.absY}) scale(${seat.scale})`}
+              >
+                <Seat
+                  seat={{ ...seat, x: 0, y: 0 }}
+                  sectionLabel={seat.sectionLabel}
+                  row={seat.row}
+                />
+              </g>
             ))}
           </svg>
         </div>

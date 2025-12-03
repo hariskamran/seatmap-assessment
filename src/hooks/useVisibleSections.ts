@@ -1,22 +1,20 @@
 import { useEffect, RefObject } from 'react';
 
 import useAppStore from '@/stores/useAppStore';
-import { Section } from '@/types';
 
-export function useVisibleSections(containerRef: RefObject<HTMLDivElement | null>): Section[] {
-  const sectionBounds = useAppStore(state => state.sectionBounds);
-  const visibleSections = useAppStore(state => state.visibleSections);
-  const updateVisibleSections = useAppStore(state => state.updateVisibleSections);
+export function useVisibleSections(containerRef: RefObject<HTMLDivElement | null>) {
+  const updateVisibility = useAppStore(state => state.updateVisibility);
+  const spatialGrid = useAppStore(state => state.spatialGrid);
 
   useEffect(() => {
     const container = containerRef.current;
-    if (!container || !sectionBounds.length) return;
+    if (!container) return;
 
     let requestId: number;
 
     const checkVisibility = () => {
       const { scrollLeft, scrollTop, clientWidth, clientHeight } = container;
-      updateVisibleSections({ scrollLeft, scrollTop, clientWidth, clientHeight });
+      updateVisibility({ scrollLeft, scrollTop, clientWidth, clientHeight });
     };
 
     const onScroll = () => {
@@ -35,7 +33,5 @@ export function useVisibleSections(containerRef: RefObject<HTMLDivElement | null
       observer.disconnect();
       if (requestId) cancelAnimationFrame(requestId);
     };
-  }, [sectionBounds, updateVisibleSections]);
-
-  return visibleSections;
+  }, [updateVisibility, spatialGrid]);
 }
