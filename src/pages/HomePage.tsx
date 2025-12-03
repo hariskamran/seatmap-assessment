@@ -5,6 +5,7 @@ import React, { ReactElement } from 'react';
 import { TriangleAlert } from 'lucide-react';
 import { motion } from 'motion/react';
 
+import Footer from '@/components/footer/Footer';
 import Header from '@/components/header/Header';
 import SeatingMap from '@/components/seatmap/SeatingMap';
 import HomePageSkeleton from '@/components/skeleton/HomePageSkeleton';
@@ -37,6 +38,7 @@ function HomePage(): ReactElement {
     >
       <Header />
       <SeatingMap />
+      <Footer className="mt-12" />
     </motion.div>
   );
 }
