@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 import useSWR, { SWRResponse } from 'swr';
 
+import { getSectionsBounds } from '@/lib/optimizations';
 import useAppStore from '@/stores/useAppStore';
 import { Venue } from '@/types';
 
@@ -18,11 +19,14 @@ function useVenue(): VenueHook {
 
   const { data } = swrResponse;
 
-  const { setVenue } = useAppStore();
+  const { setVenue, setSectionBounds } = useAppStore();
 
   useEffect(() => {
-    setVenue(data);
-  }, [data, setVenue]);
+    if (data) {
+      setVenue(data);
+      setSectionBounds(getSectionsBounds(data.sections));
+    }
+  }, [data, setVenue, setSectionBounds]);
 
   return {
     venue: data,

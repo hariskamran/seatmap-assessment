@@ -37,3 +37,11 @@ export type Venue = {
   map: VenueMap;
   sections: Section[];
 };
+
+export type SectionBounds = {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  section: Section;
+};
